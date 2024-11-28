@@ -1,5 +1,8 @@
-
+* {
+   caret-color: transparent; 
+}
 #game-board {
+    
     display: flex;
     gap: 10px; /* Reduz o espaço entre as cartas */
     justify-content: center;
@@ -7,6 +10,8 @@
     max-width: 700px; /* Limita a largura do tabuleiro */
     margin-left: auto;
     margin-right: auto;
+     
+
 }
 
 .card {
