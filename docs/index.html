@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mystle.css">
+</head>
+<body>
+    <header id="inicio" class="bg-dark text-white text-center py-3 ">
+        <h1>Jogo da Memória</h1>
+    </header>
+
+    <main class="container">
+        <section id="setup-section" class="text-center">
+            <h2>Escolha o tema do jogo</h2>
+            <form id="setup-form" class="mb-4">
+                <div class="form-group">
+                    <label for="theme">Selecione um tema:</label>
+                    <select id="theme" class="form-control w-50 mx-auto">
+                        <option value="mitologia">Mitologia</option>
+                        <option value="herois">Heróis</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Iniciar Jogo</button>
+            </form>
+        </section>
+
+        <section id="game-board-section" class="d-none">
+            <div id="game-board"></div>
+            <a href="index.html"></a>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-5">
+        <p>&copy; 2024 Jogo da Memória.<br/>Lucas Costetti de Souza</p>
+    </footer>
+
+    <script src="myscript.js"></script>
+</body>
+</html>
